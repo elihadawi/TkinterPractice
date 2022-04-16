@@ -15,13 +15,14 @@ from tkinter import ttk
 def main():
     root = tkinter.Tk()
 
-    frame1 = ttk.Frame(root, padding=10)
-    frame1.grid()
+    frame1 = ttk.Frame(root, padding=20)  # we construct a frame and put it on the root
+    frame1.grid()  # .grid makes things show up
 
     go_forward_button = ttk.Button(frame1, text='Forward')
     go_forward_button.grid()
 
     root.mainloop()
+
 
 ########################################################################
 #
